@@ -103,7 +103,7 @@ a {
     justify-content: center;
     align-items: center;
     color: white;
-    background: url(../CardápioJonathan/Downloads/ideias-cardapio-restaurante-a-la-carte.jpg) no-repeat center center;
+    background: url(/ideias-cardapio-restaurante-a-la-carte.jpg) no-repeat center center;
     background-size: cover;
     /* overlay */
     background-color: rgba(0, 0, 0, 0.5);
