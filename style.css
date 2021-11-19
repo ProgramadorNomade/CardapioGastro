@@ -1,0 +1,287 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.img-logo {
+    width: 10px;
+    /* height: 10px; */
+    position: relative;
+    /* background-size: cover; */
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 60px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    background: #111;
+    color: white;
+    border-radius: 5px;
+    transition: background 500ms ease;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: yellow;
+}
+
+#headline {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+#navbar ul a:visited{
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+#navbar {
+    bottom: 0%;
+    display: inline-block;
+    max-width: 10%;
+    position: absolute;
+    text-align: center;
+    background-color:  rgb(2, 2, 1);
+    color: #eee;
+}
+
+.navbar-items {
+    width: 10%;
+    position: fixed;
+    padding: 15px;
+    list-style: none;
+    bottom: 0%;
+    right: 7%;
+    background-size: cover;
+    color: black;
+    z-index: 2000;
+}
+
+.navbar-items li {
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 8px;
+    margin-bottom: 0%;
+    font-size: 15px;
+}
+
+.navbar-items li:hover {
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+#navbar-container ul{
+    right: 4%;
+    margin-bottom: 0%;
+    bottom: 0%; 
+}
+
+/* SHOWCASE */
+
+#showcase {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url(../CardápioJonathan/Downloads/ideias-cardapio-restaurante-a-la-carte.jpg) no-repeat center center;
+    background-size: cover;
+    /* overlay */
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: color;
+}
+
+#showcase-container {
+    margin: 50px;
+    text-align: center;
+}
+
+#showcase-container {
+    font-size: 2.5rem;
+}
+
+#showcase-container p {
+    font-size: 1.2rem;
+    padding: 7px;
+}
+
+/* about */
+
+#features  h2{
+    justify-content: center;
+    margin-top: 2px;
+    padding-bottom: 25px;
+    display: flex;
+}
+
+#features {
+    margin: 0%;
+    width: 100%;
+    background: rgba(165, 42, 42, 1);
+    color: #eee;
+    padding: 50px;
+    padding-top: 35px;
+}
+
+#features-container {
+    width: 100%;
+    margin: auto;
+}
+
+#featuresgrid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+/* products */
+
+#products {
+    font-size: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 30px;
+    background-image: url(../Jonatan/downloads/images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.8 );
+    background-blend-mode: color;
+}
+
+#products img {
+    padding: 5px;
+    width: 140px;
+    border-radius: 15px;
+}
+
+#item-product {
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#smooth{
+    color: white;
+    text-align: center;
+}
+
+#smooth h2{
+    font-size: 14px;
+    padding: 5px;
+    padding: 1px;
+}
+
+#smooth h4{
+    font-size: 10px;
+}
+
+.pizzatext{
+    background-color: tomato;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+#lista1{
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+}
+
+#lista1 li a{
+    color: rgb(218, 127, 8);
+    font-weight: bold;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#p-calabresa{
+    font-size: 15px;
+    max-width: 60%;
+}
+
+#p-mussarela{
+    font-size: 15px;
+    max-width: 60%;
+}
+
+.p-mss{
+    max-block-size: 20%;
+    writing-mode: horizontal-tb;
+    padding: 2px;
+    font-weight: bold;
+    margin-top: 0%;
+    font-size: 100%;
+}
+
+/* #pmm{
+    font-size: 120%;
+} */
+
+.mg1{
+    margin-top: 40px;
+    font-weight: bold;
+    word-spacing: 30px;
+}
+
+.RE h6{
+    font-size: 95%;
+    display: flex;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.RE3 h6{
+    font-size: 140%;
+    font-weight: bold;
+    margin-left: 5%;
+    padding: 0%;
+    margin-right: 0%;
+}
+
+.pfr3{
+    max-width: 100px;
+    padding: 0%;
+    margin: 0%;
+    font-weight: bold;
+    font-size: 70%;
+}
+
+.pfr{
+    font-weight: bold;
+    font-size: 70%;
+    padding: 2px;
+}
+
+.hr{
+    padding: 2px;
+    background-color: red;
+}
+
+.DD{
+    max-width: 30%;
+    background-color: rgb(218, 127, 8);
+    position: absolute;
+    padding: 5px;
+    justify-content: end;
+    right: 0%;
+}
